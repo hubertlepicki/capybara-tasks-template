@@ -1,7 +1,5 @@
-require 'bundler'
+require 'capybara'
 require 'capybara/poltergeist'
-
-Bundler.require
 
 terms = ARGV.join(" ")
 
